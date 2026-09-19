@@ -1,9 +1,10 @@
 a = int(input("Введите первое число: "))
 b = int(input("Введите второе число: "))
 
-try:
+
+if b != 0:
 	result = a / b
-except Exception:
+else:
 	print("Деление на ноль запрещено")
 
 print("Деление чисел:", result)
